@@ -220,7 +220,8 @@
       </div>
       <div class="channel-info">
         <h3>${channel.name}</h3>
-        <p>${channel.name}</p>
+        <p>Canal ${index + 1}</p>
+
 
       </div>
     `;
