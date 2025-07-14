@@ -3,27 +3,7 @@
 // api/canais.js
 module.exports = async (req, res) => {
   const lista = `
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz,https://www.tdtchannels.com/epg/TV.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/all.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz,https://i.mjh.nz/Stirr/all.xml.gz,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/DStv/za.xml"
-
-
-
-# █ █▄ █ ▄▀▀ █▀▄ █ █▀▄ ▄▀▄ ▀█▀ █ ▄▀▄ █▄ █   █   █ █▄ █ █▄▀ ▄▀▀
-# █ █ ▀█ ▄██ █▀  █ █▀▄ █▀█  █  █ ▀▄▀ █ ▀█   █▄▄ █ █ ▀█ █ █ ▄██
-# ――――――――――――――――――――――――――――――――――――――――――――――
-# (●) Last Update: 2025-06-19 11:15:11 GMT+7 "
-# (●) Service: FREETV Inspiration Links
-# (●) Total Channels: Null
-
-
-⚠️ Atenção: Todas as ligações de streams disponibilizados nas listas foram retiradas da Internet. Apenas as organizo, disponibiliza e partilha. Não detenho qualquer servidor e/ou transmitimos ou re-emitimos qualquer tipo de sinal.
-
-
-
-//////////////////////////////// SE ENCONTRAR ESTA PLAYLIST \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\ FORA GITHUB/INSPIRATIONLINKS É UMA COPIA ///////////////////////
-
-
-
+#EXTM3U
 #EXTINF:-1 tvg-name="Contact: https://t.me/livetuga"
 tvg-logo="https://raw.githubusercontent.com/inspirationlinks/m3u/refs/heads/live/LogosTv/iconinspiration.webp" group-title="🆁™ Canais Exclusivos",@livetuga
 https://t.me/livetuga
