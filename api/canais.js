@@ -4,60 +4,6 @@
 module.exports = async (req, res) => {
   const lista = `
 #EXTM3U
-#EXTINF:-1 cuid="1" tvg-name="Tv Portuguesa 🇵🇹🇧🇷" tvg-logo="https://portaltvportuguesa.com.br/wp-content/uploads/2022/08/portaltv_b1_w.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",Tv Portuguesa 🇵🇹🇧🇷
-https://video09.logicahost.com.br/tvportuguesa/tvportuguesa/playlist.m3u8
-
-#EXTINF:-1 cuid="2" tvg-name="RTP Internacional 🇵🇹" tvg-id="RTP.Internacional.pt" user-agent="Wink/1.31.1" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/c/cf/RTP_Internacional_logo_2012.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP Internacional 🇵🇹
-#EXTINF:http-user-agent=Wink/1.31.1
-http://78.128.125.60:9981/play/a00k/index.m3u8
-#EXTINF:-1 cuid="2" tvg-name="RTP Internacional 🇵🇹" tvg-id="RTP.Internacional.pt" user-agent="Wink/1.31.1" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/c/cf/RTP_Internacional_logo_2012.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP Internacional 🇵🇹
-#EXTINF:http-user-agent=IE
-https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-
-
-#EXTINF:-1 cuid="3" tvg-name="RTP 1 🇵🇹" tvg-id="RTP.1.HD.pt" user-agent="Wink/1.31.1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/portugal/rtp-1-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP 1 🇵🇹
-#KODIPROP:inputstream.adaptive.manifest_type=m3u8
-#EXTINF:http-referrer=https://vavoo.to/
-#EXTINF:http-origin=https://vavoo.to
-https://www.kool.to/play/1394401047/index.m3u8
-#EXTINF:-1 cuid="4" tvg-name="RTP 1 🇵🇹" tvg-id="RTP.1.HD.pt" user-agent="Wink/1.31.1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/portugal/rtp-1-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP 1 🇵🇹
-#EXTINF:http-user-agent=Wink/1.31.1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f80351a117ba3f17a26e0e8cd4dc00c4:a2226def4bc8f249de2daf36b7c12b1e
-http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd
-
-.
-
-#EXTINF:-1 cuid="5" tvg-name="RTP 2 🇵🇹" tvg-id="RTP.2.HD.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/RTP2_logo_2016.png" user-agent="Wink/1.31.1" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP 2 🇵🇹
-#https://gitlatte-a.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MjAvbW9uby5tM3U4.m3u8
-#EXTINF:-1 cuid="6" tvg-name="RTP 2 🇵🇹 [Don't Work OTT]" tvg-id="RTP.2.HD.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/RTP2_logo_2016.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP 2 🇵🇹
-#EXTINF:http-user-agent=Wink/1.31.1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=761e7af421a4386e82eaa861a49b3d73:f1eb56955a79e555b1f8b96aec3afa25
-http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd
-
-#EXTINF:-1 cuid="7" tvg-name="RTP 3 🇵🇹" tvg-id="RTP.3.HD.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png" group-logo="https://cdn-icons-png.freepik.com/512/2837/2837605.png" group-title="🆁™ News 🇵🇹🇧🇷",RTP 3 🇵🇹
-#EXTINF:http-user-agent=VAVOO/1.0
-#KODIPROP:inputstream.adaptive.manifest_type=m3u8
-#EXTINF:http-referrer=https://vavoo.to/
-#EXTINF:http-origin=https://vavoo.to
-https://www.kool.to/play/3310235454/index.m3u8
-
-#EXTINF:-1 cuid="8" tvg-name="RTP 3 🇵🇹" tvg-id="RTP.3.HD.pt" user-agent="Wink/1.31.1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png" group-logo="https://cdn-icons-png.freepik.com/512/2837/2837605.png" group-title="🆁™ News 🇵🇹🇧🇷",RTP 3 🇵🇹
-#EXTINF:http-user-agent=IE
-http://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
-http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
-
-#EXTINF:-1 cuid="8" tvg-name="RTP 3 🇵🇹" tvg-id="RTP.3.HD.pt" user-agent="Wink/1.31.1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Rtp3.png" group-logo="https://cdn-icons-png.freepik.com/512/2837/2837605.png" group-title="🆁™ News 🇵🇹🇧🇷",RTP 3 🇵🇹
-#EXTINF:http-user-agent=Wink/1.31.1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=761e7af421a4386e82eaa861a49b3d73:f1eb56955a79e555b1f8b96aec3afa25
-http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/manifest.mpd
-
-.
 
 #EXTINF:-1 cuid="9" tvg-name="RTP Memoriaᴸᴼᵂ 🇵🇹" tvg-id="RTP.Memória.pt" user-agent="Wink/1.31.1" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-memoria-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP Memoria 🇵🇹
 #EXTINF:http-user-agent=VAVOO/1.0
