@@ -5,53 +5,6 @@ module.exports = async (req, res) => {
   const lista = `
 #EXTM3U
 
-#EXTINF:-1 cuid="9" tvg-name="RTP Memoriaᴸᴼᵂ 🇵🇹" tvg-id="RTP.Memória.pt" user-agent="Wink/1.31.1" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-memoria-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP Memoria 🇵🇹
-#EXTINF:http-user-agent=VAVOO/1.0
-#KODIPROP:inputstream.adaptive.manifest_type=m3u8
-#EXTINF:http-referrer=https://vavoo.to/
-#EXTINF:http-origin=https://vavoo.to
-https://www.kool.to/play/3518481964/index.m3u8
-#EXTINF:-1 cuid="9" tvg-name="RTP Memoriaᴸᴼᵂ 🇵🇹" tvg-id="RTP.Memória.pt" user-agent="Wink/1.31.1" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-memoria-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP Memoria 🇵🇹
-#EXTINF:http-user-agent=IE
-http://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
-http://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
-
-#EXTINF:-1 cuid="10" tvg-name="RTP Açores" tvg-id="RTP.Açores.pt" user-agent="Wink/1.31.1" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-acores-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP Açores 🇵🇹
-#EXTINF:http-user-agent=Wink/1.31.1
-http://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8
-
-#EXTINF:-1 cuid="11" tvg-name="RTP Madeira" tvg-id="RTP.Madeira.pt" user-agent="Wink/1.31.1" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-madeira-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP Madeira 🇵🇹
-#EXTINF:http-user-agent=VAVOO/1.0
-#KODIPROP:inputstream.adaptive.manifest_type=m3u8
-#EXTINF:http-referrer=https://vavoo.to/
-#EXTINF:http-origin=https://vavoo.to
-https://www.kool.to/play/3637826537/index.m3u8
-#EXTINF:-1 cuid="11" tvg-name="RTP Madeira" tvg-id="RTP.Madeira.pt" user-agent="Wink/1.31.1" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-madeira-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP Madeira 🇵🇹
-#EXTINF:http-user-agent=Wink/1.31.1
-#EXTINF:http-user-agent=IE
-http://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
-
-#EXTINF:-1 cuid="12" tvg-name="RTP África" tvg-id="RTP.África.pt" user-agent="Wink/1.31.1" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-africa-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP África 🇵🇹
-#EXTINF:http-user-agent=VAVOO/1.0
-#KODIPROP:inputstream.adaptive.manifest_type=m3u8
-#EXTINF:http-referrer=https://vavoo.to/
-#EXTINF:http-origin=https://vavoo.to
-https://www.kool.to/play/368968283/index.m3u8
-#EXTINF:-1 cuid="12" tvg-name="RTP África" tvg-id="RTP.África.pt" user-agent="Wink/1.31.1" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-africa-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",RTP África 🇵🇹
-#EXTINF:http-user-agent=Wink/1.31.1
-#EXTINF:http-user-agent=IE
-http://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
-
-#EXTINF:-1 cuid="13" tvg-name="ARTV 🇵🇹" tvg-id="ARTV.pt" tvg-logo="https://github.com/inspirationlinks/m3u/raw/live/LogosTv/ARTV.webp" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",ARTV 🇵🇹
-https://playout175.livextend.cloud/livenlin4/2liveartvpub2/playlist.m3u8
-
-. 𝙎𝙡𝘾
-
-#EXTINF:-1 cuid="14" tvg-name="SIC 🇵🇹" tvg-id="SIC.HD.pt" tvg-logo="https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/sic-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/4482/4482879.png" group-title="🆁™ Portugal",SIC 🇵🇹
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-
-#EXTINF:-1 cuid="15" tvg-name="SIC Noticias 🇵🇹" tvg-id="SIC.Notícias.HD.pt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/portugal/sic-noticias-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/2837/2837605.png" group-title="🆁™ News 🇵🇹🇧🇷",SIC Noticias 🇵🇹
-https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
 #EXTINF:-1 cuid="16" tvg-name="SIC Noticias 🇵🇹" tvg-id="SIC.Notícias.HD.pt" user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/portugal/sic-noticias-pt.png" group-logo="https://cdn-icons-png.freepik.com/512/2837/2837605.png" group-title="🆁™ News 🇵🇹🇧🇷",SIC Noticias 🇵🇹
 #EXTINF:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41
 https://sicnot.live.impresa.pt/sicnot.m3u8
